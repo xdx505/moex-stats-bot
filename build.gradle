@@ -9,7 +9,7 @@ version = '0.0.1'
 sourceCompatibility = '11'
 
 bootJar {
-    archiveFileName = "webinar-bot.jar"
+    archiveFileName = "moex-bot.jar"
 }
 
 configurations {
