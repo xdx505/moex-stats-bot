@@ -8,8 +8,7 @@ import org.springframework.web.client.RestTemplate;
 
 @Configuration
 public class WebConfig {
-    @Bean
-    public ChromeDriver chromeDriver() {
+    public static ChromeDriver chromeDriver() {
         var chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--disable-extensions", "--headless", "--disable-gpu", "--no-sandbox");
         return new ChromeDriver(chromeOptions);
